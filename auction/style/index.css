@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li{
+    list-style-type: none;
+}
+.container ul {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.auction-title a{
+    border-radius: 5px;
+    margin: 5px 5px;
+    padding: 15px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    background-color: seagreen;
+}
+.auction-title a:hover{
+    background-color: green;
+}
